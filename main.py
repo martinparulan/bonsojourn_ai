@@ -1,9 +1,10 @@
 import os
-from dotenv import load_dotenv
 import uvicorn
 from fastapi import FastAPI
 from google.adk.cli.fast_api import get_fast_api_app
 
+# Load environment variables
+from dotenv import load_dotenv
 load_dotenv()
 
 APP_DIR = os.path.dirname(os.path.abspath(__file__))
