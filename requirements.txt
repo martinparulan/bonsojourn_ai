@@ -1,5 +1,6 @@
 google-adk
 fastapi
-uvicorn
+uvicorn[standard]
 python-dotenv
 litellm
+gunicorn
